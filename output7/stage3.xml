@@ -1,0 +1,202 @@
+<?xml version="1.0"?>
+<opencv_storage>
+<stage3>
+  <maxWeakCount>39</maxWeakCount>
+  <stageThreshold>-1.7741975784301758e+00</stageThreshold>
+  <weakClassifiers>
+    <_>
+      <internalNodes>
+        0 -1 151354 2.8480492532253265e-02</internalNodes>
+      <leafValues>
+        -6.6847193241119385e-01 3.6190477013587952e-01</leafValues></_>
+    <_>
+      <internalNodes>
+        0 -1 165219 1.8322253599762917e-03</internalNodes>
+      <leafValues>
+        -2.5447532534599304e-01 3.5343399643898010e-01</leafValues></_>
+    <_>
+      <internalNodes>
+        0 -1 138202 -6.9728242233395576e-03</internalNodes>
+      <leafValues>
+        4.7108584642410278e-01 -1.1243364959955215e-01</leafValues></_>
+    <_>
+      <internalNodes>
+        0 -1 240784 -1.2653693556785583e-01</internalNodes>
+      <leafValues>
+        -3.3278587460517883e-01 1.4310824871063232e-01</leafValues></_>
+    <_>
+      <internalNodes>
+        0 -1 50266 2.4480447173118591e-02</internalNodes>
+      <leafValues>
+        9.7719699144363403e-02 -4.3511909246444702e-01</leafValues></_>
+    <_>
+      <internalNodes>
+        0 -1 166018 5.1083629950881004e-03</internalNodes>
+      <leafValues>
+        -8.2206822931766510e-02 5.2583748102188110e-01</leafValues></_>
+    <_>
+      <internalNodes>
+        0 -1 166390 -4.8489668406546116e-03</internalNodes>
+      <leafValues>
+        3.7689483165740967e-01 -1.0665441304445267e-01</leafValues></_>
+    <_>
+      <internalNodes>
+        0 -1 98111 -4.1618668474256992e-03</internalNodes>
+      <leafValues>
+        -2.9586467146873474e-01 1.5897865593433380e-01</leafValues></_>
+    <_>
+      <internalNodes>
+        0 -1 161435 1.2272411957383156e-02</internalNodes>
+      <leafValues>
+        -1.0233847796916962e-01 4.2904758453369141e-01</leafValues></_>
+    <_>
+      <internalNodes>
+        0 -1 50065 4.0460258722305298e-02</internalNodes>
+      <leafValues>
+        8.7927751243114471e-02 -4.3464896082878113e-01</leafValues></_>
+    <_>
+      <internalNodes>
+        0 -1 216341 9.5229584258049726e-04</internalNodes>
+      <leafValues>
+        1.4619967341423035e-01 -2.6693239808082581e-01</leafValues></_>
+    <_>
+      <internalNodes>
+        0 -1 92513 7.8647760674357414e-03</internalNodes>
+      <leafValues>
+        -5.4225571453571320e-02 7.0983004570007324e-01</leafValues></_>
+    <_>
+      <internalNodes>
+        0 -1 139951 1.2071802280843258e-02</internalNodes>
+      <leafValues>
+        -4.1123595088720322e-02 6.4507550001144409e-01</leafValues></_>
+    <_>
+      <internalNodes>
+        0 -1 17422 -4.9451291561126709e-03</internalNodes>
+      <leafValues>
+        -3.7559667229652405e-01 1.0038094967603683e-01</leafValues></_>
+    <_>
+      <internalNodes>
+        0 -1 66815 4.6448397915810347e-04</internalNodes>
+      <leafValues>
+        1.1187236011028290e-01 -2.7358359098434448e-01</leafValues></_>
+    <_>
+      <internalNodes>
+        0 -1 221885 7.5864413520321250e-04</internalNodes>
+      <leafValues>
+        -1.8964497745037079e-01 1.7527095973491669e-01</leafValues></_>
+    <_>
+      <internalNodes>
+        0 -1 152857 -2.7398555539548397e-03</internalNodes>
+      <leafValues>
+        3.7412965297698975e-01 -9.1592378914356232e-02</leafValues></_>
+    <_>
+      <internalNodes>
+        0 -1 62255 9.7963735461235046e-03</internalNodes>
+      <leafValues>
+        -3.9644725620746613e-02 6.9396668672561646e-01</leafValues></_>
+    <_>
+      <internalNodes>
+        0 -1 232498 1.0277936780767050e-05</internalNodes>
+      <leafValues>
+        -1.4639008045196533e-01 2.1169744431972504e-01</leafValues></_>
+    <_>
+      <internalNodes>
+        0 -1 34135 -1.3991300947964191e-03</internalNodes>
+      <leafValues>
+        -2.3361657559871674e-01 1.4017501473426819e-01</leafValues></_>
+    <_>
+      <internalNodes>
+        0 -1 19301 2.3107305169105530e-02</internalNodes>
+      <leafValues>
+        1.1641173064708710e-01 -3.4052640199661255e-01</leafValues></_>
+    <_>
+      <internalNodes>
+        0 -1 229374 -4.1024010628461838e-02</internalNodes>
+      <leafValues>
+        -4.3334048986434937e-01 6.9057688117027283e-02</leafValues></_>
+    <_>
+      <internalNodes>
+        0 -1 174909 3.8627777248620987e-03</internalNodes>
+      <leafValues>
+        -8.8782936334609985e-02 3.6166581511497498e-01</leafValues></_>
+    <_>
+      <internalNodes>
+        0 -1 124130 1.0102324187755585e-02</internalNodes>
+      <leafValues>
+        -4.3913833796977997e-02 6.1148816347122192e-01</leafValues></_>
+    <_>
+      <internalNodes>
+        0 -1 228792 3.2096416689455509e-03</internalNodes>
+      <leafValues>
+        1.2851895391941071e-01 -2.3367598652839661e-01</leafValues></_>
+    <_>
+      <internalNodes>
+        0 -1 156969 -1.0483534075319767e-02</internalNodes>
+      <leafValues>
+        4.4752299785614014e-01 -7.1575030684471130e-02</leafValues></_>
+    <_>
+      <internalNodes>
+        0 -1 154626 5.5540981702506542e-03</internalNodes>
+      <leafValues>
+        -3.5618811845779419e-02 7.5522923469543457e-01</leafValues></_>
+    <_>
+      <internalNodes>
+        0 -1 174192 1.1768577620387077e-02</internalNodes>
+      <leafValues>
+        -3.6335416138172150e-02 7.2400885820388794e-01</leafValues></_>
+    <_>
+      <internalNodes>
+        0 -1 177844 -3.3160527236759663e-03</internalNodes>
+      <leafValues>
+        5.5484253168106079e-01 -4.6105537563562393e-02</leafValues></_>
+    <_>
+      <internalNodes>
+        0 -1 190043 -1.1791421457019169e-05</internalNodes>
+      <leafValues>
+        1.9696074724197388e-01 -1.4340534806251526e-01</leafValues></_>
+    <_>
+      <internalNodes>
+        0 -1 177227 3.8040526211261749e-02</internalNodes>
+      <leafValues>
+        -6.9458343088626862e-02 4.1916784644126892e-01</leafValues></_>
+    <_>
+      <internalNodes>
+        0 -1 8 3.3434611395932734e-04</internalNodes>
+      <leafValues>
+        1.0808309912681580e-01 -3.0634331703186035e-01</leafValues></_>
+    <_>
+      <internalNodes>
+        0 -1 240239 -1.6834929119795561e-03</internalNodes>
+      <leafValues>
+        1.9189168512821198e-01 -1.6198393702507019e-01</leafValues></_>
+    <_>
+      <internalNodes>
+        0 -1 142652 5.9470231644809246e-03</internalNodes>
+      <leafValues>
+        7.4312724173069000e-02 -4.0516999363899231e-01</leafValues></_>
+    <_>
+      <internalNodes>
+        0 -1 135593 3.1692725606262684e-03</internalNodes>
+      <leafValues>
+        -4.8238772898912430e-02 7.2346365451812744e-01</leafValues></_>
+    <_>
+      <internalNodes>
+        0 -1 232547 8.0462172627449036e-04</internalNodes>
+      <leafValues>
+        1.1201189458370209e-01 -2.8958353400230408e-01</leafValues></_>
+    <_>
+      <internalNodes>
+        0 -1 212390 4.7729481011629105e-03</internalNodes>
+      <leafValues>
+        -6.7472636699676514e-02 4.5540502667427063e-01</leafValues></_>
+    <_>
+      <internalNodes>
+        0 -1 155038 6.9658840075135231e-03</internalNodes>
+      <leafValues>
+        -4.7656178474426270e-02 5.4734706878662109e-01</leafValues></_>
+    <_>
+      <internalNodes>
+        0 -1 181602 1.2171119451522827e-03</internalNodes>
+      <leafValues>
+        5.4942622780799866e-02 -5.6840020418167114e-01</leafValues></_></weakClassifiers></stage3>
+</opencv_storage>
