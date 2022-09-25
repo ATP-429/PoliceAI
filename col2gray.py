@@ -2,7 +2,7 @@ import os
 import cv2 as cv
 import time
 
-path = "hands2\\"
+path = "negatives\\"
 dir_list = os.listdir(path)
 
 for dir in dir_list:

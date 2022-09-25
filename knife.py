@@ -25,12 +25,12 @@ def setClickthrough(win_name):
     except Exception as e:
         print(e)
 
-cascade = cv.CascadeClassifier('cascade2.xml')
+cascade = cv.CascadeClassifier('cascade9.xml')
 
 vid = cv.VideoCapture(0)
 
 WIDTH, HEIGHT = 1920, 1080
-REDUCED_WIDTH , REDUCED_HEIGHT = 1920//1, 1080//1
+REDUCED_WIDTH , REDUCED_HEIGHT = 1920//4, 1080//4
 
 overlay = np.zeros((REDUCED_HEIGHT, REDUCED_WIDTH, 3), np.uint8)
 cv.imshow('Overlay', overlay)
@@ -38,23 +38,30 @@ cv.moveWindow('Overlay', 0, 0)
 cv.setWindowProperty('Overlay', cv.WND_PROP_TOPMOST, 1)
 setClickthrough('Overlay')
 
+display_image = False
+
 while True:
     # ret, img = vid.read()
     # img = cv.imread('test.jpg')
     img = screen_grab('chrome')
-
-    img = cv.cvtColor(img, cv.COLOR_BGR2GRAY)
     img = cv.medianBlur(img, 5)
+    img = cv.cvtColor(img, cv.COLOR_BGR2GRAY)
     img = cv.resize(img, (REDUCED_WIDTH, REDUCED_HEIGHT), interpolation=cv.INTER_LINEAR)
 
     overlay = np.zeros((REDUCED_HEIGHT, REDUCED_WIDTH, 3), np.uint8)
 
-    knives = cascade.detectMultiScale(img, scaleFactor=1.1, minNeighbors=50, minSize=(24, 24), maxSize=(80, 80))
+    knives = cascade.detectMultiScale(img, scaleFactor=1.01, minNeighbors=100, minSize=(24, 24), maxSize=(150, 150))
 
     for (x, y, w, h) in knives:
-        print("Knife detected")
-        cv.rectangle(overlay,(x,y),(x+w,y+h),(255,0,0),2)
+        # print("Knife detected")
+        if display_image:
+            cv.rectangle(img,(x,y),(x+w,y+h),(255,0,0),2)
+        else:
+            cv.rectangle(overlay,(x,y),(x+w,y+h),(255,0,0),2)
     
-    overlay = cv.resize(overlay, (WIDTH, HEIGHT), interpolation=cv.INTER_NEAREST)
+    if display_image:
+        overlay = cv.resize(img, (WIDTH, HEIGHT), interpolation=cv.INTER_NEAREST)
+    else:
+        overlay = cv.resize(overlay, (WIDTH, HEIGHT), interpolation=cv.INTER_NEAREST)
     cv.imshow('Overlay', overlay)
     cv.waitKey(1)
